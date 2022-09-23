@@ -1,0 +1,5 @@
+s = int(input())
+a = s*s
+print(f'Area of a square with side value {s} is {a}')
+p = 4*s
+print(f'Perimeter of a square with side value {s} is {p}')
