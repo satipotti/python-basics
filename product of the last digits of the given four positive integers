@@ -1,0 +1,10 @@
+a=int(input('enter the a value:'))
+b=int(input('enter the b value:'))
+c=int(input('enter the c value:'))
+d=int(input('enter the d value:'))
+x=a%10
+y=b%10
+z=c%10
+m=d%10
+product=(a%10)*(b%10)*(c%10)*(d%10)
+print(f'poduct of {x},{y},{z} and {m} is:{product}')
