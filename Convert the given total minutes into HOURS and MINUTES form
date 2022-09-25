@@ -1,0 +1,4 @@
+n=int(input('enter a time in minutes:'))
+hour=n//60
+min=n%60
+print(f'{hour} Hour(s) {min} Minute(s)')
