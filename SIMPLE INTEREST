@@ -1,0 +1,5 @@
+p=int(input('enter the amount:'))
+t=int(input('enter the time:'))
+r=float(input('enter the interest;'))
+si=(p*t*r)/100
+print(f'simple interest on an amount of {p} for {t} years at {r} percent per annum is :{si}')
