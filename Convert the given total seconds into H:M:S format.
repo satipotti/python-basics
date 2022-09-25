@@ -1,0 +1,6 @@
+s=int(input("Enter the number of seconds:"))
+hour = s // 3600
+rs=s%3600
+minutes = rs//60
+rm=rs%60
+print(f'{hour}:{minutes}:{rm}')
